@@ -1,5 +1,2 @@
-# src/palindrome.py
-
-def is_palindrome(s):
+def is_palindrome():
     pass
-
