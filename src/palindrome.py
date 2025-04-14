@@ -15,3 +15,14 @@ def is_palindrome(text):
         right -= 1
     return True
 
+if __name__ == "__main__":
+    try:
+        while True:
+            entrada = input("Ingrese una palabra o frase: ")
+            if is_palindrome(entrada):
+                print(f'"{entrada}" es un palíndromo')
+            else:
+                print(f'"{entrada}" no es un palíndromo')
+    except KeyboardInterrupt:
+        print("\nPrograma terminado.")
+
